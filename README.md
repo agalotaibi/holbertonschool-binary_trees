@@ -81,7 +81,7 @@ if parent.left exists:
     new.left = parent.left
     parent.left.parent = new
 parent.left = new
-return new```
+return new
 
 🔹 2 — Insert Right
 if parent is NULL → return NULL
